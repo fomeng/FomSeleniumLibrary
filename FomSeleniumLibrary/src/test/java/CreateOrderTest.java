@@ -9,7 +9,7 @@ import oracle.apps.scm.fom.ui.page.ShipmentDetailsTab;
 
 public class CreateOrderTest extends BaseTest {
 
-	private static final String BASE_URL = "https://fuscdrmsmc203-fa-ext.us.oracle.com";
+	private static final String BASE_URL = "https://host.us.oracle.com";  // replace this URL with the actual environment URL
 
 	WebDriver mDriver;
 

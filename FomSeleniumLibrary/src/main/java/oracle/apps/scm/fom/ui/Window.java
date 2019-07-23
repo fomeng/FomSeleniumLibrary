@@ -12,7 +12,7 @@ public class Window extends BaseUIObject {
 	private int mIndex;
 	
 	private WebDriver mDriver;
-
+	
 	public Window(String name, int index, WebDriver driver) {
 		super(driver);
 		
@@ -25,10 +25,10 @@ public class Window extends BaseUIObject {
 	public FusionHomePage login() {
 		
 		WebElement userId = mDriver.findElement(By.xpath("//input[@type='text'][@name='userid']"));		
-		userId.sendKeys("scmoperations");		
+		userId.sendKeys("<userName>");		
 	
 		WebElement pwd = mDriver.findElement(By.xpath("//input[@type='password'][@name='password']"));		
-		pwd.sendKeys("Welcome1");
+		pwd.sendKeys("<password>");
 		
 		WebElement signInButton = mDriver.findElement(By.xpath("//button[contains(text(),'Sign In')]"));		
 		signInButton.click();
