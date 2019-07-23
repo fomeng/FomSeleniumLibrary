@@ -18,7 +18,7 @@ public class Window extends BaseUIObject {
 		
 		mName = name;
 		mIndex = index;
-		mDriver = driver;
+		mDriver = driver; 
 	}
 	
 	

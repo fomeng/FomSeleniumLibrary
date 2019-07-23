@@ -13,7 +13,7 @@ import oracle.apps.scm.fom.ui.Window;
 public class BaseTest {
 	
 	private int mWindowCount = 0;
-	private static final String REL_HOME_PAGE_URL = "/homePage/faces/AtkHomePageWelcome";
+	private static final String REL_HOME_PAGE_URL = "/homePage/faces/AtkHomePageWelcome"; 
 	
     private WebDriver mDriver;
 	
