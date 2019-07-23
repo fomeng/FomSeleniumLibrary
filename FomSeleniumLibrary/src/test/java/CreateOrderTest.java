@@ -14,7 +14,7 @@ public class CreateOrderTest extends BaseTest {
 	WebDriver mDriver;
 
 	public CreateOrderTest() {
-		super(BASE_URL);
+		super(BASE_URL); 
 	}
 
 	private void run() throws InterruptedException {

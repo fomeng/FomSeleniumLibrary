@@ -25,7 +25,7 @@ public class Window extends BaseUIObject {
 	public FusionHomePage login() {
 		
 		WebElement userId = mDriver.findElement(By.xpath("//input[@type='text'][@name='userid']"));		
-		userId.sendKeys("<userName>");		
+		userId.sendKeys("<userName>");	// replace user name and password with actual values	
 	
 		WebElement pwd = mDriver.findElement(By.xpath("//input[@type='password'][@name='password']"));		
 		pwd.sendKeys("<password>");
